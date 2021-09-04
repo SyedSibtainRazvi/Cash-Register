@@ -8,7 +8,7 @@
 2) CSS.
 3) Vanilla JavaScript.
 ***
-**Brief:** In this application, I have took data from input boxes and using **querySelectors** I have stored them. I have used a **Button** and added event listeners
+**Brief:** In this application, I have took data from input boxes and using **querySelectors** I have stored them in variables. I have used a **Button** and added event listeners
 on **click** function. And used an **errorHandler** incase user inputs negative value. All the computations are done once the event calls the function.
 
 #### What Next?
