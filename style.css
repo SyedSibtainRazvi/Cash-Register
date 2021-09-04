@@ -20,9 +20,6 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body>nav>div>ul>li:nth-child(2) {
-    padding-right: 5rem;
-}
 
 .nav-links ul li {
     list-style: none;
@@ -108,6 +105,7 @@ td {
     align-items: center;
     padding: 1rem;
     max-width: 100vw;
+    height: 7vh;
     border-radius: 6px;
     box-shadow: 10px -5px 5px #EEEEEE;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
