@@ -5,18 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Cash Register</title>
 </head>
 
 <body>
+    <nav class="primary-header">
+        <!-- <img src=""> -->
+        <h1>SS</h1>
+        <div class="nav-links">
+            <ul>
+                <li> <a href="https://github.com/SyedSibtainRazvi/Cash-Register">&lt/Code&gt</a></li>
+                <li> <a href="https://sibtain.netlify.app/">&lt/Portfolio&gt</a></li>
+            </ul>
+        </div>
+    </nav>
     <div class="container">
         <h1 class="heading">Cash Register</h1>
-        <p class="info">Please put in the cash and bill amount and we will return the change</p>
+        <p class="info">Please put in the cash amount and bill amount and we will return the changin minimun number
+            of notes.</p>
         <label for="bill-amount">Bill Amount</label>
-        <input id="bill-amount" type="text" placeholder="Enter Amount">
+        <input id="bill-amount" type="number" placeholder="Enter Amount">
         <label for="cash-given">Cash Given</label>
-        <input id="cash-given" type="text" placeholder="Enter Amount">
+        <input id="cash-given" type="number" placeholder="Enter Amount">
         <button id="check-button">Check</button>
         <p id="error-message"></p>
         <table class="table">
@@ -43,6 +55,13 @@
             </tr>
         </table>
     </div>
+    <footer class="primary-footer">
+        <div class="icon">
+            <a href="https://github.com/SyedSibtainRazvi"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/syed-sibtain-razvi-919669150/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://twitter.com/SyedSibtain1996"><i class="fa fa-twitter"></i></a>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 
